@@ -4,7 +4,7 @@ const _formatMessage: any = require("format-message");
 const LOCALE = "locale";
 
 export class LocaleStore {
-    private _locale = observable("");  // the locale value
+    private _locale = observable.box("");  // the locale value
     private translations: {[key: string]: {[id: string]: string}}
 
     constructor(defaultLocale: string, translations: {[key: string]: {[id: string]: string}}) {
