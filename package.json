@@ -95,8 +95,8 @@
     "mobx-react": "^5.2.3",
     "prettier": "^1.7.4",
     "prompt": "^1.0.0",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
     "react-intl": "^2.4.0",
     "replace-in-file": "^3.0.0-beta.2",
     "rimraf": "^2.6.2",
@@ -116,12 +116,12 @@
     "validate-commit-msg": "^2.12.2"
   },
   "dependencies": {
-    "format-message": "^5.2.0"
+    "format-message": "^6.0.4"
   },
   "peerDependencies": {
-    "mobx": "^3.0.0",
-    "mobx-react": "^4.0.0",
-    "react": "^15.6.1",
-    "react-intl": "^2.3.0"
+    "mobx": "^5.0.3",
+    "mobx-react": "^5.2.3",
+    "react": "^16.4.2",
+    "react-intl": "^2.4.0"
   }
 }
